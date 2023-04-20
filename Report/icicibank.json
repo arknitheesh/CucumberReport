@@ -1,0 +1,638 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13199111700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch ICICI Url",
+            "match": {
+              "location": "IciciReport.launchICICIUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12665581199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "iciciHook.OpenChrome()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "ICICI Bank Login page with valid, invalid , null datas and Logins with detailed Report",
+        "description": "",
+        "id": "icici-bank-login-with-diffrent-credintioal;icici-bank-login-page-with-valid--invalid---null-datas-and-logins-with-detailed-report",
+        "after": [
+          {
+            "result": {
+              "duration": 2832192500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "iciciHook.closeChrome()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17482432999,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Mouse hover to Login and Select personal Banking",
+            "match": {
+              "location": "IciciReport.mouseHoverToLoginAndSelectPersonalBanking()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3567261701,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter User \"\u003cusername\u003e\" id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 11
+                }
+              ],
+              "location": "IciciReport.enterUserId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1090035200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"\u003cpassword\u003e\" Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 6
+                }
+              ],
+              "location": "IciciReport.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123634000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select Fund Transfer Option",
+            "match": {
+              "location": "IciciReport.selectFundTransferOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1408879800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click Login",
+            "match": {
+              "location": "IciciReport.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 527313000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close the session",
+            "match": {
+              "location": "IciciReport.closeTheSession()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ICICLogin"
+          },
+          {
+            "name": "@Login1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14696760101,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch ICICI Url",
+            "match": {
+              "location": "IciciReport.launchICICIUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12092080300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "iciciHook.OpenChrome()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "ICICI Bank Login page with valid, invalid , null datas and Logins with detailed Report",
+        "description": "",
+        "id": "icici-bank-login-with-diffrent-credintioal;icici-bank-login-page-with-valid--invalid---null-datas-and-logins-with-detailed-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 162435200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "iciciHook.closeChrome()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1807203200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Launch ICICI Url",
+            "match": {
+              "location": "IciciReport.launchICICIUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19146994400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Mouse hover to Login and Select personal Banking",
+            "match": {
+              "location": "IciciReport.mouseHoverToLoginAndSelectPersonalBanking()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3146251900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter User \"nitheesh\" id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nitheesh\"",
+                  "offset": 11
+                }
+              ],
+              "location": "IciciReport.enterUserId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1085261099,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter \"Nitheesh@123\" Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nitheesh@123\"",
+                  "offset": 6
+                }
+              ],
+              "location": "IciciReport.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112315400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Select Fund Transfer Option",
+            "match": {
+              "location": "IciciReport.selectFundTransferOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1181872500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click Login",
+            "match": {
+              "location": "IciciReport.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 430225100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Close the session",
+            "match": {
+              "location": "IciciReport.closeTheSession()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ICICLogin"
+          },
+          {
+            "name": "@Login2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12751565700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch ICICI Url",
+            "match": {
+              "location": "IciciReport.launchICICIUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10529648699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "iciciHook.OpenChrome()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "ICICI Bank Login page with valid, invalid , null datas and Logins with detailed Report",
+        "description": "",
+        "id": "icici-bank-login-with-diffrent-credintioal;icici-bank-login-page-with-valid--invalid---null-datas-and-logins-with-detailed-report;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 161816900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "iciciHook.closeChrome()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1699836700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Launch ICICI Url",
+            "match": {
+              "location": "IciciReport.launchICICIUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24390483000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Mouse hover to Login and Select personal Banking",
+            "match": {
+              "location": "IciciReport.mouseHoverToLoginAndSelectPersonalBanking()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3209398699,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter User \"Nithi\" id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nithi\"",
+                  "offset": 11
+                }
+              ],
+              "location": "IciciReport.enterUserId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1146717601,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter \"Nikhi@123\" Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nikhi@123\"",
+                  "offset": 6
+                }
+              ],
+              "location": "IciciReport.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152263201,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Select Fund Transfer Option",
+            "match": {
+              "location": "IciciReport.selectFundTransferOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1376381300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click Login",
+            "match": {
+              "location": "IciciReport.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452213600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Close the session",
+            "match": {
+              "location": "IciciReport.closeTheSession()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ICICLogin"
+          },
+          {
+            "name": "@Login2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8707588500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch ICICI Url",
+            "match": {
+              "location": "IciciReport.launchICICIUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12197726400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "iciciHook.OpenChrome()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "ICICI Bank Login page with valid, invalid , null datas and Logins with detailed Report",
+        "description": "",
+        "id": "icici-bank-login-with-diffrent-credintioal;icici-bank-login-page-with-valid--invalid---null-datas-and-logins-with-detailed-report;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 333208899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "iciciHook.closeChrome()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1133858900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Launch ICICI Url",
+            "match": {
+              "location": "IciciReport.launchICICIUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15584005201,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Mouse hover to Login and Select personal Banking",
+            "match": {
+              "location": "IciciReport.mouseHoverToLoginAndSelectPersonalBanking()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3684630800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter User \"Ram\" id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ram\"",
+                  "offset": 11
+                }
+              ],
+              "location": "IciciReport.enterUserId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1381821999,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter \"Ramu@*123\" Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ramu@*123\"",
+                  "offset": 6
+                }
+              ],
+              "location": "IciciReport.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220743699,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Select Fund Transfer Option",
+            "match": {
+              "location": "IciciReport.selectFundTransferOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2927216000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click Login",
+            "match": {
+              "location": "IciciReport.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 577447001,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Close the session",
+            "match": {
+              "location": "IciciReport.closeTheSession()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ICICLogin"
+          },
+          {
+            "name": "@Login2"
+          }
+        ]
+      }
+    ],
+    "name": "ICICI bank Login with diffrent credintioal",
+    "description": "",
+    "id": "icici-bank-login-with-diffrent-credintioal",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/icici.feature",
+    "tags": [
+      {
+        "name": "@ICICLogin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

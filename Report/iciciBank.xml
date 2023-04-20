@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="209.380666">
+    <testcase classname="ICICI bank Login with diffrent credintioal" name="ICICI Bank Login page with valid, invalid , null datas and Logins with detailed Report" time="52.899327">
+        <system-out><![CDATA[Given Launch ICICI Url......................................................passed
+When Mouse hover to Login and Select personal Banking.......................passed
+And Enter User "<username>" id..............................................passed
+And Enter "<password>" Password.............................................passed
+And Select Fund Transfer Option.............................................passed
+And Click Login.............................................................passed
+Then Close the session......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="ICICI bank Login with diffrent credintioal" name="ICICI Bank Login page with valid, invalid , null datas and Logins with detailed Report 2" time="53.861831">
+        <system-out><![CDATA[Given Launch ICICI Url......................................................passed
+Given Launch ICICI Url......................................................passed
+When Mouse hover to Login and Select personal Banking.......................passed
+And Enter User "nitheesh" id................................................passed
+And Enter "Nitheesh@123" Password...........................................passed
+And Select Fund Transfer Option.............................................passed
+And Click Login.............................................................passed
+Then Close the session......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="ICICI bank Login with diffrent credintioal" name="ICICI Bank Login page with valid, invalid , null datas and Logins with detailed Report 3" time="55.87083">
+        <system-out><![CDATA[Given Launch ICICI Url......................................................passed
+Given Launch ICICI Url......................................................passed
+When Mouse hover to Login and Select personal Banking.......................passed
+And Enter User "Nithi" id...................................................passed
+And Enter "Nikhi@123" Password..............................................passed
+And Select Fund Transfer Option.............................................passed
+And Click Login.............................................................passed
+Then Close the session......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="ICICI bank Login with diffrent credintioal" name="ICICI Bank Login page with valid, invalid , null datas and Logins with detailed Report 4" time="46.748678">
+        <system-out><![CDATA[Given Launch ICICI Url......................................................passed
+Given Launch ICICI Url......................................................passed
+When Mouse hover to Login and Select personal Banking.......................passed
+And Enter User "Ram" id.....................................................passed
+And Enter "Ramu@*123" Password..............................................passed
+And Select Fund Transfer Option.............................................passed
+And Click Login.............................................................passed
+Then Close the session......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
